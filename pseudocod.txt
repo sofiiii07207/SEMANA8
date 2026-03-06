@@ -1,0 +1,19 @@
+L=input("Ingrese numero de personas")
+Nombres=[]
+Fecha=[]
+Loop for i to L in 1
+	N=input("Ingrese nombre")
+	F=input("Ingrese fecha de nacimiento" )
+	Nombre[]=Nombre[i]
+	Fecha[]=Fecha[i]
+	i=i+1
+end loop
+Ordenar La lista desde Enero a Diciembre
+Loop for i to L in 1
+	if Nombre[i] == Fecha[i+1] then
+		imprimir "Nombre[i] y NOmbre [i+1] cumplen el mismo dia"
+	Dif=abs(Nombre[i+1] - Nombre[i])
+	Dif2=abs(Nombre[i+2]- Nombre[i+1])
+	if Dif1 < Dif2 then
+	imprimir  " Nombre[i] y Nombre [i+1] son los mas cercanos"
+end loop 	
